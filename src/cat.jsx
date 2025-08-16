@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Download, Plus, Trash2, FileText } from 'lucide-react';
 
+
 const CateringInvoiceGenerator = () => {
   const [invoiceData, setInvoiceData] = useState({
     invoiceNumber: `INV-${Date.now().toString().slice(-6)}`,
