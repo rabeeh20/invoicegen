@@ -572,6 +572,13 @@ const CateringInvoiceGenerator = () => {
               placeholder="Additional notes, terms, or conditions..."
             />
           </div>
+           <button
+              onClick={generatePDF}
+              className="flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              <Download className="h-5 w-5" />
+              <span>Download PDF</span>
+            </button>
         </div>
       </div>
     </div>
